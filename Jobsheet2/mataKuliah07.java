@@ -23,5 +23,20 @@ public class mataKuliah07 {
         System.out.println("SKS: " + sks);
         System.out.println("Jumlah Jam: " + jumlahjam);
     }
-    
+
+    void ubahSks(int sksBaru) {
+        sks = sksBaru;
+    }
+
+    void tambahjam(int jamTambahan) {
+        jumlahjam += jamTambahan;
+    }
+
+    void kurangiJam(int jamPengurangan) {
+        if (jumlahjam - jamPengurangan >= 0) {
+            jumlahjam -= jamPengurangan;
+        } else {
+            System.out.println("Jumlah jam tidak bisa negatif.");
+        }
+    }
 }

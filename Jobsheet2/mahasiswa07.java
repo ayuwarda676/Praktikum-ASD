@@ -47,4 +47,5 @@ public class mahasiswa07 {
             return "Kinerja Kurang";
         }
     }
+
 }

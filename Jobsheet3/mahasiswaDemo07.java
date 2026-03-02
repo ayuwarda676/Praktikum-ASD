@@ -21,7 +21,6 @@ public class mahasiswaDemo07 {
             System.out.println("-----------------------------------");
             
         }
-
         System.out.println();
         for (int i = 0; i < 3; i++) {
             System.out.println("Mahasiswa ke-" + (i + 1));

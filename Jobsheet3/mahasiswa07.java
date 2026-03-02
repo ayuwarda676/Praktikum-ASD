@@ -11,6 +11,7 @@ public class mahasiswa07 {
         System.out.println("Nama  : " + nama);
         System.out.println("Kelas : " + kelas);
         System.out.println("IPK   : " + ipk);
-
+        
+        
     }
 }

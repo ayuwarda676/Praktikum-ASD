@@ -7,9 +7,7 @@ public class mataKuliah07 {
     public int jumlahJam;
 
     public mataKuliah07() {
-    }
-
-
+        }
     public mataKuliah07(String kode, String nama, int sks, int jumlahJam) {
         this.kode = kode;
         this.nama = nama;
@@ -30,6 +28,4 @@ public class mataKuliah07 {
         System.out.println("SKS        : " + sks);
         System.out.println("Jumlah Jam : " + jumlahJam);
     }
-    
-    
 }

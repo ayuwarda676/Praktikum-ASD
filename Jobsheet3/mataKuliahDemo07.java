@@ -7,9 +7,8 @@ public class mataKuliahDemo07 {
         String kode, nama,dummy;
         int sks, jumlahJam;
 
-        System.out.print("Masukkan jumlah mata kuliah yang akan diinput: ");
+        System.out.print("Masukkan jumlah mata kuliah: ");
         int jumlahMataKuliah = Integer.parseInt(sc.nextLine());
-
         mataKuliah07[] arrayOfMataKuliah = new mataKuliah07[jumlahMataKuliah];
 
         for (int i = 0; i < arrayOfMataKuliah.length; i++) {
@@ -26,8 +25,8 @@ public class mataKuliahDemo07 {
             jumlahJam = Integer.parseInt(dummy);
             System.out.println("-----------------------------------");
             
-            arrayOfmataKuliah[i] = new mataKuliah07();
-            arrayOfmataKuliah[i] = new mataKuliah07(kode, nama, sks, jumlahJam);
+            arrayOfMataKuliah[i] = new mataKuliah07();
+            arrayOfMataKuliah[i].tambahData(kode, nama, sks, jumlahJam);
         }
 
         for (int i = 0; i < arrayOfMataKuliah.length; i++) {
@@ -39,8 +38,9 @@ public class mataKuliahDemo07 {
             System.out.println("-----------------------------------");
         }
 
-        System.out.println("Cetak info semua mata kuliah:");
+        System.out.println("Cetak semua data mata kuliah: ");
         for (int i = 0; i < arrayOfMataKuliah.length; i++) {
+            System.out.println("Data mata kuliah ke-" + (i + 1));
             arrayOfMataKuliah[i].cetakInfo();
             System.out.println("-----------------------------------");
         }

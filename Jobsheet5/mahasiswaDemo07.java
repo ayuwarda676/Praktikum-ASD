@@ -36,6 +36,10 @@ public class mahasiswaDemo07 {
         System.out.println("\nData yang sudah terurut menggunakan SELECTION SORT (ASC): ");
         list.selectionSort();
         list.tampil();
+
+        System.out.println("\nData yang sudah terurut menggunakan INSERTION SORT (ASC): ");
+        list.insertionSort();
+        list.tampil();
     }
     
 }

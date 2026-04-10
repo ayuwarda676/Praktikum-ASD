@@ -33,4 +33,18 @@ public class mahasiswaBerprestasi07 {
             }
         }
     }
+
+    void selectionSort(){
+        for (int i = 0; i < idx - 1; i++){
+            int idxMin = i;
+            for (int j = i + 1; j < idx; j++){
+                if (listMhs[j].ipk < listMhs[idxMin].ipk){
+                    idxMin = j;
+                }
+            }
+            mahasiswa07 temp = listMhs[i];
+            listMhs[i] = listMhs[idxMin];
+            listMhs[idxMin] = temp;
+        }
+    }
 }

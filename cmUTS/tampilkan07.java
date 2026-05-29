@@ -64,7 +64,7 @@ public class tampilkan07 {
             System.out.println();
         }
 
-        // MENU 5 SEARCHING PEMINJAMAN BERDASARKAN NIM MAHASISWA
+        // MENU 5 SEARCHING PEMINJAMAN BERDASARKAN PRODI MAHASISWA
         System.out.println("=== MENU 5: Searching Peminjaman Berdasarkan Prodi Mahasiswa ===");
         String cariProdi = "Teknik Informatika";
         boolean ditemukan = false;
@@ -99,8 +99,6 @@ public class tampilkan07 {
         }
         totalSemuaDenda += totalDenda;
         System.out.println("Total Denda Semua Mahasiswa: Rp " + totalSemuaDenda);
-        
-
     }
     
 }

@@ -8,6 +8,7 @@ public class mataKuliah07 {
 
     public mataKuliah07() {
         }
+
     public mataKuliah07(String kode, String nama, int sks, int jumlahJam) {
         this.kode = kode;
         this.nama = nama;
